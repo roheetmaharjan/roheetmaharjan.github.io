@@ -39,9 +39,6 @@ img{
     min-height: 100%;
     position: absolute;
     left: 0;
-    top: 0;
-    right:0;
-    margin: 0 auto;
     z-index: -1111111;
     bottom: 0;
     
