@@ -55,7 +55,7 @@ img{
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(97, 189, 250, 0.45);
+    background-color: rgba(103, 112, 119, 0.5);
     z-index: -11;
 
 }
@@ -105,7 +105,7 @@ img{
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-color: indianred;
+    background-color: #f2b632;
     border-radius: 50%;
 }
 .details{
@@ -122,7 +122,7 @@ img{
 
 /*--------Navigation------------*/
 nav{
-    background-color: #6534ff;
+    background-color: #252839;
 }
 .burger-nav{
     color: #fff;
@@ -160,7 +160,7 @@ main{
     padding: 4em 0;
     height: auto;
     z-index: 1111111;
-    background-color: #eee;
+    background-color: #b5b5b7;
 }
 .portfolio-box{
     padding: 10px;
@@ -182,7 +182,7 @@ main{
     text-align: center;
     font-size: 14px;
     vertical-align: top;
-    background-color: darkslategrey;
+    background-color: #f2b632;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -244,12 +244,12 @@ main{
 }
 .owl-carousel{
     padding-left: 0;
-    background-color: #fff;
+    background-color: #b5b5b7 ;
     padding-top: 30px;
     min-height: 280px;
 }
 .item{
-    background-color: #fff;
+    background-color: #b5b5b7;
     padding: 1em;
     width: 100%;
     border-radius: 5px;
@@ -258,10 +258,10 @@ main{
 .item h4{
     margin-bottom: 10px;
     font-size: 20px;
-    color: indianred;
+    color: #f2b632;
 }
 .item p{
-    color: #333;
+    color: #fff;
 }
 /*--Skills---*/
 .skills h3{
