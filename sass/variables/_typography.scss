@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-ransition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+
+$font-stack: 'Encode Sans', sans-serif;
+
+html{
+    font-size: 18px;
+}
+body {
+    font-family: 'Encode Sans', sans-serif;
+    background-color: $body-bg;
+    line-height: 1.5em
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
