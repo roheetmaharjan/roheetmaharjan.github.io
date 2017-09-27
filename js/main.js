@@ -48,3 +48,12 @@ $('.button-group').each( function( i, buttonGroup ) {
   
 
 });
+$(document).ready(function() {
+  $(".exp-wrap").owlCarousel({
+    items: 2,
+    slideSpeed: 500,
+    autoPlay: 5000,
+    stopOnHover: true,
+    pagination:false
+  });
+});
