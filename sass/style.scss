@@ -452,3 +452,46 @@ section{
         }
     }
 }
+
+@media screen and(max-width:768px) {
+    
+}
+@media screen and(max-width:640px) {
+    .menu{
+        display: none;
+    }
+    .about .about-wrp .img-holder{
+        width: 100%;
+        display: block;
+    }
+    .about .about-wrp .text-holder {
+        width: 100%;
+        display: block;
+        padding-left: 0;
+    }
+    .skills-wrap li {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        padding-right: 0;
+    }
+    .banner-caption {
+        width: 100%;
+    }
+}
+@media screen and(max-width:414px) {
+    .portfolio .button {
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        color: #999;
+        padding: 10px 0;
+    }
+    .portfolio .grid div {
+        display: block;
+        width: 100%;
+        margin-right: 0%;
+    }
+}

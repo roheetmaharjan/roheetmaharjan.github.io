@@ -54,6 +54,20 @@ $(document).ready(function() {
     slideSpeed: 500,
     autoPlay: 5000,
     stopOnHover: true,
-    pagination:false
+    pagination:false,
+    responsive : {
+      // breakpoint from 0 up
+      0 : {
+        items: 1
+      },
+      // breakpoint from 480 up
+      640 : {
+        items: 1
+      },
+      // breakpoint from 768 up
+      768 : {
+        items: 2
+      }
+  }
   });
 });
