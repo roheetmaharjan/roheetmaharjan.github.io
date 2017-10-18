@@ -71,3 +71,18 @@ $(document).ready(function() {
   }
   });
 });
+
+$(window).scroll(function(){
+  var scrollTop = $(this).scrollTop();
+  $('.header-bg').css('top', -(scrollTop * 0.5) + 'px');
+})
+
+$(window).scroll(function() {    
+  var scroll = $(window).scrollTop();
+
+  if (scroll >= 20) {
+      $(".header").addClass("stick");
+  } else {
+      $(".header").removeClass("stick");
+  }
+});

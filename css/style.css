@@ -42,15 +42,6 @@ p {
   padding: 0 10px; }
 
 /*---------Banner--------*/
-.banner-wrap {
-  background-image: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100vh;
-  position: relative; }
 
 .header {
   padding: 0;
