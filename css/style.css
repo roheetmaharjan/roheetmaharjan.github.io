@@ -129,9 +129,8 @@ p {
 .banner-caption {
   position: absolute;
   width: 40%;
-  top: 50%;
   transition: 0.5s all ease;
-  transform: translate(0, -50%); }
+  top: 50% }
   .banner-caption h2 {
     color: #eee;
     font-size: 2rem;
@@ -301,7 +300,8 @@ section {
       text-transform: uppercase; }
     .skills-wrap li p {
       color: #999;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      min-height: 135px  }
 
 .exp-wrap::after {
   content: '';

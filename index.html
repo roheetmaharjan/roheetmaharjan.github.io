@@ -21,7 +21,7 @@
 
 <body>
   <div class="banner-wrap">
-    <div class="header-bg">
+    <div class="header-bg" data-stellar-background-ratio="0.3">
         <header id="header" class="header">
           <div class="container">
             <div class="logo"><h4> <a href="#"><span>R</span> M</a> </h4></div>
@@ -41,10 +41,10 @@
             </div>
           </header>
           <div class="container">
-            <div class="banner-caption">
+            <div class="banner-caption" data-stellar-ratio="1.5">
               <h2>Rohit Maharjan</h2>
               <p>Front-End Developer</p>
-              <a href="#" class="banner-button">My Work</a>
+              <a href="#portfolio-section" class="banner-button">My Work</a>
             </div>
           </div>
     </div>
@@ -84,21 +84,21 @@
               <ul class="skills-wrap">
                   <li>
                     <h3>Html</h3>
-                    <p>Lorem Ipsum is simply dummy text try. Lorem Ipsum has been the industry's standard  </p>
+                    <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages. </p>
                     <div class="bar html">
                       <span class="animated fadeInLeft">70%</span>
                     </div>
                   </li>
                   <li>
                     <h3>Css/Css3</h3>
-                    <p>Lorem Ipsum is simply dummy text try. Lorem Ipsum has been the industry's standard</p>
+                    <p>A cascading style sheet (CSS) is a Web page derived from multiple sources with a defined order of precedence where the definitions of any style element conflict.</p>
                     <div class="bar css">
                       <span class="animated fadeInLeft">80%</span>
                     </div>
                   </li>
                   <li>
                     <h3>Jquery</h3>
-                    <p>Lorem Ipsum is simply dummy text try. Lorem Ipsum has been the industry's standard </p>
+                    <p>The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s). </p>
                     <div class="bar jquery">
                       <span class="animated fadeInLeft">60%</span>
                     </div>
@@ -171,24 +171,29 @@
           </div>
           <div class="grid">
             <div class="element-item wordpress" data-category="wordpress">
-              <img src="images/screen/medical.png" alt="medical">
+              <a href="http://buzthemes.com/demo/the-multiple/medical/" target="_blank"><img src="images/screen/medical.png" alt="medical"></a>
             </div>
             <div class="element-item wordpress " data-category="wordpress">
-              <img src="images/screen/corporate.png" alt="medical">
+              <a href="http://buzthemes.com/demo/the-multiple/Commercial/" target="_blank"><img src="images/screen/corporate.png" alt="medical"></a>
             </div>
             <div class="element-item wordpress" data-category="wordpress">
-              <img src="images/screen/bloggerbuz.png" alt="medical">
+              <a href="http://buzthemes.com/demo/bloggerbuz/demo-1/" target="_blank"><img src="images/screen/bloggerbuz.png" alt="medical"></a>
             </div>
             <div class="element-item wordpress" data-category="wordpress">
-              <img src="images/screen/consult.jpg" alt="medical">
+              <a href="http://buzthemes.com/demo/the-consult/" target="_blank"><img src="images/screen/consult.jpg" alt="medical"></a>
             </div>
             <div class="element-item wordpress" data-category="wordpress">
-              <img src="images/screen/agency.png" alt="medical">
+              <a href="http://buzthemes.com/demo/the-multiple/agency/" target="_blank"><img src="images/screen/agency.png" alt="medical"></a>
             </div>
           </div>
       </div>
     </section>
   </div>
-</body>
 
+  <script src="plugins/stellar.js/jquery-2.0.2.js"></script>
+  <script src="plugins/stellar.js/jquery.stellar.min.js"></script>
+  <script>
+    $.stellar();
+  </script>
+</body>
 </html>
