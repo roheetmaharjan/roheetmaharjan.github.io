@@ -72,10 +72,7 @@ $(document).ready(function() {
   });
 });
 
-$(window).scroll(function(){
-  var scrollTop = $(this).scrollTop();
-  $('.header-bg').css('top', -(scrollTop * 0.5) + 'px');
-})
+$(window).stellar();
 
 $(window).scroll(function() {    
   var scroll = $(window).scrollTop();
