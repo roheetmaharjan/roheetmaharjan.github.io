@@ -13,7 +13,6 @@ html {
 
 body {
   font-family: 'Encode Sans', sans-serif;
-  background-color: #282631;
   line-height: 1.5em; }
 
 a {
@@ -47,10 +46,12 @@ p {
   padding: 0;
   font-size: 0; }
   .header .logo {
-    width: 30%;
-    display: inline-block;
-    font-size: 25px;
-    vertical-align: middle; }
+      width: 30%;
+      display: inline-block;
+      font-size: 25px;
+      vertical-align: middle;
+      display: none;
+  }
     .header .logo a {
       color: #333;
       background-color: #ffffff;
@@ -67,11 +68,12 @@ p {
         line-height: 40px;
         padding: 0px 12px;
         display: inline-block; }
-  .header nav {
-    width: 70%;
-    font-size: 16px;
-    display: inline-block;
-    line-height: 50px; }
+        .header nav {
+            width: 100%;
+            font-size: 16px;
+            display: inline-block;
+            line-height: 50px;
+        }
     .header nav #toggle {
       display: none; }
     .header nav .icon {
@@ -107,7 +109,7 @@ p {
     .header nav .icon .ham:after {
       top: 8px; }
     .header nav ul {
-      text-align: right;
+      text-align: center;
       font-size: 0; }
       .header nav ul li {
         display: inline-block;
@@ -131,6 +133,11 @@ p {
   width: 40%;
   transition: 0.5s all ease;
   top: 50% }
+  .banner-caption .logo-wrp{
+      width: 80px;
+      height: auto;
+      margin: 20px auto;
+  }
   .banner-caption h2 {
     color: #eee;
     font-size: 2rem;
@@ -162,8 +169,7 @@ a.banner-button {
 
 section {
   padding: 50px 0;
-  z-index: 111;
-  background-color: #282631; }
+  z-index: 111; }
 
 .section-title {
   display: table;
@@ -193,7 +199,7 @@ section {
       font-size: 14px; }
 
 .about {
-  border-bottom: 1px solid #3F4253; }
+  border-bottom: 1px solid #eee; }
   .about .about-wrp {
     font-size: 0; }
     .about .about-wrp .img-holder {
@@ -243,7 +249,7 @@ section {
 
 .bar {
   margin-bottom: 20px;
-  background-color: #2f313e;
+  background-color: #eee;
   height: 40px;
   overflow: hidden;
   width: 100%; }
@@ -251,7 +257,6 @@ section {
     height: 42px;
     width: 50%;
     display: block;
-    border-radius: 3px;
     text-align: center;
     line-height: 42px;
     font-size: 14px; }
@@ -339,7 +344,7 @@ section {
       font-size: 14px; }
 
 .portfolio {
-  background-color: #25232e; }
+  background-color: #f7f7f7; }
   .portfolio .button-group {
     width: 100%;
     font-size: 0; }
@@ -354,7 +359,7 @@ section {
     color: #999;
     padding: 10px 0;
     cursor: pointer;
-    border-bottom: 2px solid #2f313e; }
+    border-bottom: 2px solid #ddd; }
     .portfolio .button:focus {
       outline: none; }
   .portfolio .is-checked {
