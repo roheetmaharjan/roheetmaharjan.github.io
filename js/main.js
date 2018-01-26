@@ -45,7 +45,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
-  
+
 
 });
 $(document).ready(function() {
@@ -74,7 +74,7 @@ $(document).ready(function() {
 
 $(window).stellar();
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
   var scroll = $(window).scrollTop();
 
   if (scroll >= 20) {
@@ -83,3 +83,23 @@ $(window).scroll(function() {
       $(".header").removeClass("stick");
   }
 });
+// Wrap every letter in a span
+$('.banner-caption .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.banner-caption .letter',
+    rotateY: [-90, 0],
+    duration: 1300,
+    delay: function(el, i) {
+      return 150 * i;
+    }
+  }).add({
+    targets: '.animate',
+    opacity: 0,
+    duration: 2500,
+    easing: "easeOutExpo",
+    delay: 500
+  });
