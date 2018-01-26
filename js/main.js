@@ -84,22 +84,58 @@ $(window).scroll(function() {
   }
 });
 // Wrap every letter in a span
-$('.banner-caption .letters').each(function(){
+/*$('.banner-caption .letters').each(function(){
   $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 });
 
-anime.timeline({loop: false})
+anime.timeline({loop: true})
   .add({
-    targets: '.banner-caption .letter',
+    targets: '.animate .letter',
     rotateY: [-90, 0],
     duration: 1300,
     delay: function(el, i) {
-      return 150 * i;
+      return 45 * i;
+    }
+  })
+  .add({
+    targets: '.animate',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+});*/
+// Wrap every letter in a span
+$('.animate .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.animate .line',
+    scaleY: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700
+  })
+  .add({
+    targets: '.animate .line',
+    translateX: [0,$(".animate .letters").width()],
+    easing: "easeOutExpo",
+    duration: 700,
+    delay: 100
+  }).add({
+    targets: '.animate .letter',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=775',
+    delay: function(el, i) {
+      return 34 * (i+1)
     }
   }).add({
     targets: '.animate',
     opacity: 0,
-    duration: 2500,
+    duration: 5000,
     easing: "easeOutExpo",
-    delay: 500
+    delay: 1000
   });
