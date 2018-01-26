@@ -4,10 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    -webkit-transition: 0.5s all ease;
+    /*-webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     -ms-ransition: 0.5s all ease;
-    transition: 0.5s all ease;
+    transition: 0.5s all ease;*/
 }
 
 html {
@@ -204,22 +204,14 @@ p {
   top: 0;
   left: 0;
 }
-.animate {
-  font-weight: 900;
-  font-size: 4em;
-}
 .animate .text-wrapper {
   display: inline-block;
   position: relative;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
   overflow: hidden;
 }
 .animate .letter {
     display: inline-block;
 }
-
 .banner-caption h2::after {
     content: '';
     width: 100%;

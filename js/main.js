@@ -135,7 +135,7 @@ anime.timeline({loop: true})
   }).add({
     targets: '.animate',
     opacity: 0,
-    duration: 5000,
+    duration: 1000,
     easing: "easeOutExpo",
     delay: 1000
   });
