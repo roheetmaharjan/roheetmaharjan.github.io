@@ -4,11 +4,10 @@ body {
 
 .header-bg {
   width: 100%;
-  height: 70vh;
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
-  background-size: cover;
+  min-height: 350px;
+  background: url("../images/header.jpeg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top left;
   background-attachment: fixed;
   position: relative;
 }
@@ -32,8 +31,8 @@ body {
   width: 100%;
   z-index: 111;
   padding: 10px 0;
-  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
-  box-shadow: 1px 1px 10px #222;
+  background-image: linear-gradient(-20deg, #ccc 0%, #fff 100%);
+  transition: 0.3s all ease;
 }
 
 .element-item {
@@ -46,7 +45,10 @@ body {
   display: block;
 }
 
+.element-item img {
+  transition: 0.3s all ease;
+}
+
 .element-item:hover img {
   transform: scale(1.1);
-  opacity: 0.9;
 }

@@ -159,16 +159,16 @@ p {
     text-transform: uppercase;
 }
 
-.header nav ul li a::hover {
-    color: #52DB71;
+.header nav ul li a:hover {
+    color: #333;
 }
 
 .header nav ul li.active {
-    border-bottom: 2px solid #52DB71;
+    border-bottom: 2px solid #333;
 }
 
 .header nav ul li.active a {
-    color: #52DB71;
+    color: #333;
 }
 
 .banner-caption {
@@ -281,7 +281,7 @@ section {
 
 .section-title .title p {
     color: #999999;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .about {
