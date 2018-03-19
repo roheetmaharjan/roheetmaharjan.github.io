@@ -469,7 +469,11 @@ section {
 .exp-wrap li .exp-post {
     display: table-cell;
     width: 30%;
-    color: #cfda12;
+    color: #fff;
+    background: #d87307;
+    padding: 10px;
+    height: 100px;
+    vertical-align: middle
 }
 
 .exp-wrap li .exp-post h5 {
@@ -484,7 +488,8 @@ section {
 .exp-wrap li .exp-comp {
     display: table-cell;
     vertical-align: middle;
-    color: #ccc;
+    color: #999;
+    padding-left: 20px;
 }
 
 .exp-wrap li .exp-comp h5 {
