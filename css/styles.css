@@ -3,15 +3,15 @@ body {
 }
 
 .header-bg {
-  width: 100%;
-  min-height: 350px;
-  background: url("../images/header.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
+    width: 100%;
+    min-height: 350px;
+    background: url(../images/header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center center !important;
 }
-
 .banner-caption {
   position: absolute;
   width: 100%;
