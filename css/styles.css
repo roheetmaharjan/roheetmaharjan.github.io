@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    background-position: bottom center !important;
+    background-position: center bottom !important;
 }
 .banner-caption {
   position: absolute;
