@@ -375,12 +375,12 @@ section {
 
 .bar.html span {
     width: 70%;
-    background-color: #d87307;
+    background-color: #ff7600;
 }
 
 .bar.css span {
     width: 80%;
-    background-color: #cfda12;
+    background-color: #afea20;
 }
 
 .bar.jquery span {
@@ -412,7 +412,7 @@ section {
 }
 
 .skills-wrap li:first-child h3 {
-    color: #d87307;
+    color: #ff7600;
 }
 
 .skills-wrap li:nth-child(2) {
@@ -420,7 +420,7 @@ section {
 }
 
 .skills-wrap li:nth-child(2) h3 {
-    color: #cfda12;
+    color: #afea20;
 }
 
 .skills-wrap li:last-child {
