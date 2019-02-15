@@ -550,7 +550,15 @@ section {
 .portfolio .grid div:nth-child(3n+3) {
     margin-right: 0;
 }
-
+.pen-list{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.pen-list li{
+    width: 49%;
+    display: inline-block;
+}
 @media screen and (max-width: 640px) {
     .menu {
         display: none;
