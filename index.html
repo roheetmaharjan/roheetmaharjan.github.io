@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
-  <title>Rohit Maharjan - Front end developer</title>
+  <title>Rohit Maharjan - UI/UX Designer | Front end developer</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!--owl carousel styles-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/669264/owl.carousel.css">
-  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/669264/owl.theme.css">
-  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/669264/owl.transitions.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+  <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
   <link rel="icon" href="images/favicon.png">
   <!--font-->
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
@@ -18,258 +18,237 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!--jquery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-  <!--parralax-->
-  <script src="plugins/stellar.js/jquery-2.0.2.js"></script>
-  <script src="plugins/stellar.js/jquery.stellar.min.js"></script>
-
-  <!--portfolio filter-->
-  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js" type="text/javascript"></script>
-
-  <!--owl carousel js-->
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/669264/owl.carousel.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111284026-1"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111284026-1');
-</script>
-
 </head>
 
 <body>
   <div class="banner-wrap">
     <div class="header-bg" data-stellar-background-ratio="0.5">
-        <!--<header id="header" class="header">
-          <div class="container">
-            <div class="logo"><h4> <a href="#"><span>R</span> M</a> </h4></div>
-              <nav>
-                <label for="toggle" class="icon">
-                    <span class="ham"> </span>
-                </label>
-                <input type="checkbox" id="toggle">
-                <ul class="menu">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="#">Client</a></li>
-                </ul>
-              </nav>
-            </div>
-          </header>-->
-          <div class="container">
-            <div class="banner-caption">
-                <div class="logo-wrp">
-                  <img src="images/logo.png" alt="">
-              </div>
-              <h2 class="animate">
-                  <span class="text-wrapper">
-                      <span class="line line1"></span>
-                      <span class="letters">Rohit Maharjan</span>
-                  </span>
-              </h2>
-              <p>Front-End Developer</p>
-              <!--<a href="#portfolio-section" class="banner-button">My Work</a>-->
-            </div>
+      <div class="container">
+        <div class="banner-caption">
+          <div class="logo-wrp">
+            <img src="images/logo.png" alt="">
           </div>
-    </div>
-  </div>
-  <div id="particles-js">
-    <div class="container">
-      <section id="" class="about">
-            <div class="section-title">
-              <div class="box">
-              </div>
-              <div class="title">
-                  <h3>About</h3>
-                  <p>To develop myself as a professional by continuously learning and work sincerely in an
-                    organization, that gives me ample scope for professional growth and development and
-                    to be a successful WebDesigner after some work experiences.</p>
-              </div>
-            </div>
-            <div class="about-wrp">
-              <div class="img-holder">
-                <img src="images/profile.jpg" alt="">
-              </div>
-              <div class="text-holder">
-                <h3>Hello, I am <span>Rohit Maharjan</span> Graphic and Web Designer</h3>
-                <p>You will see from my latest portfolio that I am a fully qualified and experienced web design professional who can present innovative and creative solution to meet clients online requirements. My technical knowledge and vision are key to taking the desire and ideas of client and translating them into a website that will effectively market and grow their business.
-                  I have a background in web development and experience of successfully designing a websites layout, usability and appearance. Over the last few years, I’ve had the opportunity of working for several web design companies, this has given me extensive web designing knowledge and technical skills. </p>
-              </div>
-            </div>
-      </section>
-      <section id="skills-section" class="skills">
-            <div class="section-title">
-                <div class="box">
-                </div>
-                <div class="title">
-                    <h3>Skills</h3>
-                </div>
-              </div>
-              <ul class="skills-wrap">
-                  <li>
-                    <h3>Html</h3>
-                    <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages. </p>
-                    <div class="bar html">
-                      <span class="animated fadeInLeft">70%</span>
-                    </div>
-                  </li>
-                  <li>
-                    <h3>Css/Css3</h3>
-                    <p>A cascading style sheet (CSS) is a Web page derived from multiple sources with a defined order of precedence where the definitions of any style element conflict.</p>
-                    <div class="bar css">
-                      <span class="animated fadeInLeft">80%</span>
-                    </div>
-                  </li>
-                  <li>
-                    <h3>Jquery</h3>
-                    <p>The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s). </p>
-                    <div class="bar jquery">
-                      <span class="animated fadeInLeft">60%</span>
-                    </div>
-                  </li>
-              </ul>
-      </section>
-      <section id="experience">
-        <div class="section-title">
-          <div class="box">
-          </div>
-          <div class="title">
-              <h3>Experience</h3>
-          </div>
+          <h2 class="animate">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Rohit Maharjan</span>
+            </span>
+          </h2>
+          <p>UI/UX Designer | Front-End Developer</p>
+          <!--<a href="#portfolio-section" class="banner-button">My Work</a>-->
         </div>
-          <ul class="exp-wrap">
-            <li>
-              <div class="exp-post">
-                <div class="post-wrp">
-                  <h5>Pagoda Labs</h5>
-                  <p>2015</p>
-                </div>
-              </div>
-              <div class="exp-comp">
-                <p>Intern</p>
-              </div>
-            </li>
-            <li>
-                <div class="exp-post">
-                    <div class="post-wrp">
-                        <h5>Wg Infotech</h5>
-                        <p>2015 - 2016</p>
-                    </div>
-                </div>
-                <div class="exp-comp">
-                  <p>Front-End Developer</p>
-                </div>
-              </li>
-              <li>
-                <div class="exp-post">
-                    <div class="post-wrp">
-                      <h5>Bee Technology</h5>
-                        <p>2016 - 2017</p>
-                    </div>
-                </div>
-                <div class="exp-comp">
-                  <p>Front-End Developer, UI/UX Designer</p>
-                </div>
-              </li>
-              <li>
-                  <div class="exp-post">
-                      <div class="post-wrp">
-                          <h5>The Innovia Group</h5>
-                          <p>2018</p>
-                      </div>
-                  </div>
-                  <div class="exp-comp">
-                      <p>Front End Developer,UI/UX Designer</p>
-                  </div>
-              </li>
-          </ul>
-      </section>
+      </div>
     </div>
-    <section id="portfolio-section" class="portfolio">
-      <div class="container">
-          <div class="section-title">
-              <div class="box">
-              </div>
-              <div class="title">
-                  <h3>Portfolio</h3>
-                  <p>Have a look into my latest portfolio to see my qualificaion and experience in web design.</p>
-              </div>
-          </div>
-          <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">all</button>
-            <button class="button" data-filter=".wordpress">Websites</button>
-            <button class="button" data-filter=".graphic">Graphics</button>
-            <button class="button" data-filter=".logo">Logos</button>
-          </div>
-          <div class="grid">
-            <div class="element-item wordpress" data-category="wordpress">
-              <a href="" ><img src="images/screen/medical.png" alt="medical"></a>
-            </div>
-            <div class="element-item wordpress" data-category="wordpress">
-              <a href="" ><img src="images/screen/multiple.png" alt="medical"></a>
-            </div>
-              <div class="element-item wordpress" data-category="wordpress">
-                  <a href=""><img src="images/screen/corporate.png" alt="medical"></a>
-              </div>
-              <div class="element-item wordpress" data-category="wordpress">
-                  <a href=""><img src="images/screen/pathao.jpg" alt="medical"></a>
-              </div>
-              <div class="element-item wordpress" data-category="wordpress">
-                  <a href=""><img src="images/screen/marketing.jpg" alt="medical"></a>
-              </div>
-              <div class="element-item wordpress" data-category="wordpress">
-                  <a href=""><img src="images/screen/consult.png" alt="medical"></a>
-              </div>
-            <div class="element-item graphic" data-category="graphic">
-              <a href=""><img src="images/website/glinde.jpg" alt="graphic"></a>
-            </div>
-              <div class="element-item graphic" data-category="graphic">
-                  <a href=""><img src="images/screen/sports.png" alt="graphic"></a>
-              </div>
-            <div class="element-item graphic" data-category="graphic">
-              <a href=""><img src="images/website/id.png" alt="graphic"></a>
-            </div>
-            <div class="element-item graphic" data-category="graphic">
-              <a href=""><img src="images/website/visiting-card1.png" alt="graphic"></a>
-            </div>
-            <div class="element-item graphic" data-category="graphic">
-              <a href=""><img src="images/website/visiting-card2.png" alt="graphic"></a>
-            </div>
-          </div>
+  </div>
+  <div class="container">
+    <section id="" class="about">
+      <div class="section-title">
+        <div class="box">
+        </div>
+        <div class="title">
+          <h3>About</h3>
+          <p>To develop myself as a professional by continuously learning and work sincerely in an
+            organization, that gives me ample scope for professional growth and development and
+            to be a successful WebDesigner after some work experiences.</p>
+        </div>
+      </div>
+      <div class="about-wrp">
+        <div class="img-holder">
+          <img src="images/profile.jpg" alt="">
+        </div>
+        <div class="text-holder">
+          <h3>Hello, I am <span>Rohit Maharjan</span> Graphic and Web Designer</h3>
+          <p>You will see from my latest portfolio that I am a fully qualified and experienced web design
+            professional who can present innovative and creative solution to meet clients online requirements. My
+            technical knowledge and vision are key to taking the desire and ideas of client and translating them into
+            a website that will effectively market and grow their business.
+            I have a background in web development and experience of successfully designing a websites layout,
+            usability and appearance. Over the last few years, I`ve had the opportunity of working for several web
+            design companies, this has given me extensive web designing knowledge and technical skills. </p>
+        </div>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="section-title">
-              <div class="box">
-              </div>
-              <div class="title">
-                  <h3>My Pen</h3>
-                  <p>Have a look into my latest pens.</p>
-              </div>
-          </div>
-        <ul class="pen-list">
-          <li>
-            <iframe height='265' scrolling='no' title='Testimonial Design' src='//codepen.io/rohitmaharjan/embed/qPvqNg/?height=265&theme-id=0&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/rohitmaharjan/pen/qPvqNg/'>Testimonial Design</a> by Rohit Maharjan (<a href='https://codepen.io/rohitmaharjan'>@rohitmaharjan</a>) on <a href='https://codepen.io'>CodePen</a>.
-            <p style="text-align:center"><a href="https://codepen.io/rohitmaharjan/" style="text-decoration: none; color: #333; display: inline-block; padding:10px 20px; text-align:center;border: 1px solid #333;">View More</a></p>
-          </li>
-          <li>
-             <iframe height='265' scrolling='no' title='Testimonial Design' src='//codepen.io/rohitmaharjan/embed/qPvqNg/?height=265&theme-id=0&default-tab=html,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/rohitmaharjan/pen/qPvqNg/'>Testimonial Design</a> by Rohit Maharjan (<a href='https://codepen.io/rohitmaharjan'>@rohitmaharjan</a>) on <a href='https://codepen.io'>CodePen</a>.
-            <p style="text-align:center"><a href="https://codepen.io/rohitmaharjan/" style="text-decoration: none; color: #333; display: inline-block; padding:10px 20px; text-align:center;border: 1px solid #333;">View More</a></p>
-          
-          </li>
-        </ul>
+    <section id="skills-section" class="skills">
+      <div class="section-title">
+        <div class="box">
+        </div>
+        <div class="title">
+          <h3>Skills</h3>
+        </div>
       </div>
+      <ul class="skills-wrap">
+        <li>
+          <h3>Html</h3>
+          <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour,
+            graphic, and hyperlink effects on World Wide Web pages. </p>
+          <div class="bar html">
+            <span class="animated fadeInLeft">70%</span>
+          </div>
+        </li>
+        <li>
+          <h3>Css/Css3</h3>
+          <p>A cascading style sheet (CSS) is a Web page derived from multiple sources with a defined order of
+            precedence where the definitions of any style element conflict.</p>
+          <div class="bar css">
+            <span class="animated fadeInLeft">80%</span>
+          </div>
+        </li>
+        <li>
+          <h3>Jquery</h3>
+          <p>The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the
+            element(s). </p>
+          <div class="bar jquery">
+            <span class="animated fadeInLeft">60%</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="experience">
+      <div class="section-title">
+        <div class="box">
+        </div>
+        <div class="title">
+          <h3>Experience</h3>
+        </div>
+      </div>
+      <ul class="exp-wrap">
+        <li>
+          <div class="exp-post">
+            <div class="post-wrp">
+              <h5>Pagoda Labs</h5>
+              <p>2015, <small> <b> Intern</b></small></p>
+            </div>
+          </div>
+          <div class="exp-comp">
+            <p>Front-End Developer, UI/UX Designer, </p>
+          </div>
+        </li>
+        <li>
+          <div class="exp-post">
+            <div class="post-wrp">
+              <h5>Wg Infotech</h5>
+              <p>2015 - 2016</p>
+            </div>
+          </div>
+          <div class="exp-comp">
+            <p>Front-End Developer, UI/UX Designer</p>
+          </div>
+        </li>
+        <li>
+          <div class="exp-post">
+            <div class="post-wrp">
+              <h5>Bee Technology</h5>
+              <p>2016 - 2017</p>
+            </div>
+          </div>
+          <div class="exp-comp">
+            <p>Front-End Developer, UI/UX Designer</p>
+          </div>
+        </li>
+        <li>
+          <div class="exp-post">
+            <div class="post-wrp">
+              <h5>The Innovia Group</h5>
+              <p>2018</p>
+            </div>
+          </div>
+          <div class="exp-comp">
+            <p>Front End Developer,UI/UX Designer</p>
+          </div>
+        </li>
+      </ul>
     </section>
   </div>
-
-  <script src="js/main.js" type="text/javascript"></script>
+  <section id="my-pen" class="mypen">
+    <div class="container">
+      <div class="section-title">
+        <div class="box">
+        </div>
+        <div class="title">
+          <h3>My Pen</h3>
+        </div>
+      </div>
+      <ul class="pen-list">
+        <li>
+          <iframe height="265" style="width: 100%;" scrolling="no" title="Testimonial Design" src="//codepen.io/rohitmaharjan/embed/qPvqNg/?height=265&theme-id=0&default-tab=html,result"
+            frameborder="no" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/rohitmaharjan/pen/qPvqNg/'>Testimonial Design</a> by Rohit Maharjan
+            (<a href='https://codepen.io/rohitmaharjan'>@rohitmaharjan</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </li>
+        <li>
+          <iframe height="265" style="width: 100%;" scrolling="no" title="animated Dropdown menu" src="//codepen.io/rohitmaharjan/embed/XVKmWv/?height=265&theme-id=0&default-tab=css,result"
+            frameborder="no" allowtransparency="true" allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/rohitmaharjan/pen/XVKmWv/'>animated Dropdown menu</a> by Rohit
+            Maharjan
+            (<a href='https://codepen.io/rohitmaharjan'>@rohitmaharjan</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="portfolio-section" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <div class="box">
+        </div>
+        <div class="title">
+          <h3>Portfolio</h3>
+        </div>
+      </div>
+      <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter="*">all</button>
+        <button class="button" data-filter=".wordpress">Websites</button>
+        <button class="button" data-filter=".graphic">Graphics</button>
+        <button class="button" data-filter=".logo">Logos</button>
+      </div>
+      <div class="grid">
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/medical.png" alt="medical"></a>
+        </div>
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/multiple.png" alt="medical"></a>
+        </div>
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/corporate.png" alt="medical"></a>
+        </div>
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/pathao.jpg" alt="medical"></a>
+        </div>
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/marketing.jpg" alt="medical"></a>
+        </div>
+        <div class="element-item wordpress" data-category="wordpress">
+          <a href=""><img src="images/screen/consult.png" alt="medical"></a>
+        </div>
+        <div class="element-item graphic" data-category="graphic">
+          <a href=""><img src="images/website/glinde.jpg" alt="graphic"></a>
+        </div>
+        <div class="element-item graphic" data-category="graphic">
+          <a href=""><img src="images/screen/sports.png" alt="graphic"></a>
+        </div>
+        <div class="element-item graphic" data-category="graphic">
+          <a href=""><img src="images/website/id.png" alt="graphic"></a>
+        </div>
+        <div class="element-item graphic" data-category="graphic">
+          <a href=""><img src="images/website/visiting-card1.png" alt="graphic"></a>
+        </div>
+        <div class="element-item graphic" data-category="graphic">
+          <a href=""><img src="images/website/visiting-card2.png" alt="graphic"></a>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+<!--jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--portfolio filter-->
+<script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js" type="text/javascript"></script>
+
+<!--owl carousel js-->
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/669264/owl.carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+
 </html>
