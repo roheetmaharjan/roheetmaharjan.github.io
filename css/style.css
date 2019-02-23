@@ -35,7 +35,12 @@ img {
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 24px;
 }
 
@@ -123,7 +128,8 @@ p {
     transition: 0.5s all ease;
 }
 
-.header nav .icon .ham:before, .header nav .icon .ham:after {
+.header nav .icon .ham:before,
+.header nav .icon .ham:after {
     content: '';
     width: 25px;
     height: 2px;
@@ -192,27 +198,32 @@ p {
     margin-bottom: 20px;
     width: 100%;
 }
+
 .animate .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 3px;
-  background-color: #fff;
-  transform-origin: 0 50%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
 }
+
 .animate .line1 {
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
 }
+
 .animate .text-wrapper {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
 }
+
 .animate .letter {
     display: inline-block;
 }
+
 .banner-caption h2::after {
     content: '';
     width: 100%;
@@ -313,7 +324,7 @@ section {
 }
 
 .about .about-wrp .text-holder h3 span {
-    color: #46aef7;
+    color: #f07623;
 }
 
 .about .about-wrp .text-holder p {
@@ -338,6 +349,7 @@ section {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
+
     100% {
         -webkit-transform: none;
         transform: none;
@@ -350,6 +362,7 @@ section {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
+
     100% {
         -webkit-transform: none;
         transform: none;
@@ -451,46 +464,49 @@ section {
 }
 
 .exp-wrap li {
-    display: table;
-    float: left;
+    display: flex !important;
     vertical-align: top;
+    font-size: 0;
     width: 100%;
     padding: 0 20px 0 0;
 }
 
-.exp-wrap li:nth-child(even) {
-    padding-right: 0;
-    padding-left: 20px;
-    border-right: none;
-}
 
 .exp-wrap li:nth-child(even) .exp-post {
-    color: #11daa4;
+    background-color: #11daa4;
 }
 
 .exp-wrap li .exp-post {
-    display: table-cell;
+    display: inline-block;
     width: 50%;
-    color: #d87307;
-    background: transparent;
+    background-color: #f07623;
+    color: #fff;
+    text-align: center;
     padding: 10px;
     height: 100px;
     vertical-align: middle
 }
+
 .exp-wrap li .exp-post h5 {
     text-transform: uppercase;
     font-size: 16px;
+    text-align: center;
 }
 
 .exp-wrap li .exp-post p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .exp-wrap li .exp-comp {
-    display: table-cell;
-    vertical-align: middle;
+    width: 50%;
     color: #333;
-    padding-left: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center
+}
+
+.post-wrp {
+    margin-top: 17px;
 }
 
 .exp-wrap li .exp-comp h5 {
@@ -498,7 +514,7 @@ section {
 }
 
 .exp-wrap li .exp-comp p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .portfolio {
@@ -538,6 +554,7 @@ section {
     padding: 20px 0 0 0;
     min-height: 700px;
 }
+
 .portfolio .grid div {
     display: inline-block;
     width: 31.66%;
@@ -555,21 +572,25 @@ section {
     .menu {
         display: none;
     }
+
     .about .about-wrp .img-holder {
         width: 100%;
         display: block;
     }
+
     .about .about-wrp .text-holder {
         width: 100%;
         display: block;
         padding-left: 0;
     }
+
     .skills-wrap li {
         width: 100%;
         float: none;
         margin-right: 0%;
         padding-right: 0;
     }
+
     .banner-caption {
         width: 100%;
     }
@@ -585,9 +606,14 @@ section {
         color: #999;
         padding: 10px 0;
     }
+
     .portfolio .grid div {
         display: block;
         width: 100%;
         margin-right: 0%;
     }
+}
+
+.pen-list li {
+    margin-right: 10px;
 }
