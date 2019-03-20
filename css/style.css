@@ -620,9 +620,9 @@ section {
 a.btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #46aef7;
+    background: #ff7601;
     border-radius: 5px;
     color: #fff;
-    box-shadow: 1px 1px 20px #d6d1d1;
-    border-bottom: 2px solid #3489c5;
+    box-shadow: 1px 1px 10px #d6d1d1;
+    border-bottom: 2px solid #dc6805;
 }
