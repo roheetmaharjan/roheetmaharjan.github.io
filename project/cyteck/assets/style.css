@@ -133,8 +133,9 @@ img {
 }
 
 .main-wrapper .hero-banner {
-    min-height: 80vh;
-    background-color: #416497;
+    background-image: url(../assets/img/background.png);
+    background-size: contain;
+    height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
