@@ -727,3 +727,6 @@ img {
         margin-bottom: 0;
     }
 }
+nav.scrollUp {
+    transform: translateY(-80px);
+}

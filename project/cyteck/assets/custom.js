@@ -1,39 +1,22 @@
-$(window).scroll(function () {
-    var pos = $(window).scrollTop();
-    if (pos > 0) {
-        $('.navbar').addClass('nav-on-scroll');
-    }
-    if (pos == 0) {
-        $('.navbar').removeClass('nav-on-scroll');
-    }
-});
+
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
+'use strict';
 
-    $('.product-slider').bxSlider({
-        controls: false
-    });
-    $('.hero-banner-slider').bxSlider({
-        controls: false
-    });
-    $('.shop-banner-slider').bxSlider({
-        controls: false
-    });
-    $(".category-menu").click(function(){
-        $(".category-list").toggle();
-    });
-    var slider = $('.quote-slider').bxSlider({
-        pagerCustom: '#testi-bx-pager',
-        controls: false
-    });
+var c, currentScrollTop = 0,
+    navbar = $('nav');
 
-    $('a.pager-prev').click(function () {
-        var current = slider.getCurrentSlide();
-        slider.goToPrevSlide(current) - 1;
-    });
-    $('a.pager-next').click(function () {
-        var current = slider.getCurrentS
-        slide();
-        slider.goToNextSlide(current) + 1;
-    });
+$(window).scroll(function () {
+    var a = $(window).scrollTop();
+    var b = navbar.height();
+
+    currentScrollTop = a;
+
+    if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+    } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+    }
+    c = currentScrollTop;
+});
 });
