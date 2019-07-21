@@ -1,3 +1,8 @@
+/*---------------------------------
+-----Project Name: Cytek-----------
+-----Authur: Rohit Maharjan--------
+-----------------------------------
+*/
 body {
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
@@ -15,10 +20,43 @@ h1, h2, h3, h4, h5, h6 {
 img {
     max-width: 100%;
 }
+/*--------Button Ripple----------*/
+@-webkit-keyframes ripple {
+    from {
+        opacity: 1;
+        -webkit-transform: scale3d(0.75, 0.75, 1);
+        transform: scale3d(0.75, 0.75, 1);
+    }
 
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1.4, 1.4, 1);
+        transform: scale3d(1.4, 1.4, 1);
+    }
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        -webkit-transform: scale3d(0.75, 0.75, 1);
+        transform: scale3d(0.75, 0.75, 1);
+    }
+
+    to {
+        opacity: 0;
+        -webkit-transform: scale3d(1.4, 1.4, 1);
+        transform: scale3d(1.4, 1.4, 1);
+    }
+}
+/*-----Full Viewport Height-------*/
+.full-height{
+    height: 100vh;
+}
+/*-------Buttons-----------*/
 .btn {
     border-radius: 50px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .btn-primary {
@@ -27,14 +65,63 @@ img {
 }
 
 .btn-danger {
-    background-color: #FC7F77;
-    border-color: #FC7F77;
+    background-color: #FF655B;
+    border-color: #FF655B;
 }
 
 .btn-danger:active,
 .btn-danger:hover {
     background-color: #ea6b63;
     border-color: #ea6b63
+}
+.btn-ripple::after {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
+}
+
+.btn-ripple::before {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 8px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
 }
 
 .text-primary {
@@ -249,12 +336,12 @@ img {
 
 @media (min-width: 992px) {
     .main-wrapper .hero-banner .hero-banner-content .hero-banner-text h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 800;
     }
 
     .main-wrapper .hero-banner .hero-banner-content .hero-banner-text p {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
 
     .main-wrapper .hero-banner .hero-banner-content ul.hero-buttons li {
