@@ -19,4 +19,5 @@ $(window).scroll(function () {
     }
     c = currentScrollTop;
 });
+AOS.init();
 });

@@ -4,13 +4,15 @@
 -----------------------------------
 */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat',
+    sans-serif;
     position: relative;
 }
 
 p {
     color: #002D36;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,6 +49,24 @@ img {
         -webkit-transform: scale3d(1.4, 1.4, 1);
         transform: scale3d(1.4, 1.4, 1);
     }
+}
+/*---------------Floating animation------------------*/
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+.floating-animation{
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
 }
 /*-----Full Viewport Height-------*/
 .full-height{
@@ -137,8 +157,8 @@ img {
     right: 0;
     left: 0;
     z-index: 1030;
-    background: transparent;
-    border-color: transparent;
+    background: #423a8f;
+    border-color: #423a8f;
     transition: all 0.3s;
 }
 
@@ -157,8 +177,8 @@ img {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     transition: all 0.3s;
     padding-left: .7rem;
     padding-right: .7rem;
@@ -227,6 +247,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: repeat-x;
 }
 
 .main-wrapper .hero-banner .back-decorate {
@@ -266,12 +287,12 @@ img {
 
 @media (min-width: 992px) {
     .punch-line h2 {
-        font-size: 3rem;
+        font-size: 1.8rem;
         font-weight: 700;
     }
 
     .punch-line {
-        padding: 70px 0;
+        padding: 50px 0 20px 0;
     }
 }
 
@@ -282,7 +303,7 @@ img {
 }
 
 .punch-line p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 .main-wrapper .hero-banner .hero-banner-content {
@@ -335,13 +356,13 @@ img {
 }
 
 @media (min-width: 992px) {
-    .main-wrapper .hero-banner .hero-banner-content .hero-banner-text h1 {
-        font-size: 3rem;
-        font-weight: 800;
-    }
-
+   .main-wrapper .hero-banner .hero-banner-content .hero-banner-text h1 {
+       font-size: 2rem;
+       font-weight: 700;
+       margin-bottom: 1.5rem;
+   }
     .main-wrapper .hero-banner .hero-banner-content .hero-banner-text p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .main-wrapper .hero-banner .hero-banner-content ul.hero-buttons li {
@@ -363,7 +384,7 @@ img {
 .main-wrapper .hero-banner .hero-banner-content ul.hero-buttons li .btn {
     border-radius: 50px;
     padding: 12px 30px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -391,10 +412,9 @@ img {
 }
 
 .feature-box .border-card h3 {
-    font-weight: 700;
+    font-weight: 600;
     color: #002D36;
-    text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 25px;
 }
 
@@ -416,7 +436,7 @@ img {
 .showcase-wrapper {
     background-color: #fff;
     position: relative;
-    padding: 40px 0 70px;
+    padding: 70px 0;
 }
 
 .showcase-wrapper .showcase-content {
@@ -427,12 +447,9 @@ img {
 }
 
 .showcase-wrapper .showcase-content h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 2rem;
-}
-
-.showcase-wrapper .showcase-content p {
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
 }
 
 .showcase-wrapper.showcase-left {
@@ -461,7 +478,7 @@ img {
 
 @media (min-width: 992px) {
     .showcase-wrapper .showcase-content h2 {
-        font-size: 2.8rem;
+        font-size: 1.8rem;
     }
 
     .showcase-wrapper {
