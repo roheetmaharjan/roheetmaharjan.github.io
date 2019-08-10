@@ -275,7 +275,6 @@ img {
 .punch-line {
     text-align: center;
     padding: 50px 0;
-    background: #fff;
     position: relative;
 }
 
@@ -434,7 +433,6 @@ img {
 }
 
 .showcase-wrapper {
-    background-color: #fff;
     position: relative;
     padding: 70px 0;
 }
@@ -452,9 +450,6 @@ img {
     margin-bottom: 1.5rem;
 }
 
-.showcase-wrapper.showcase-left {
-    padding-bottom: 20px;
-}
 
 .showcase-wrapper .showcase-phone {
     text-align: center;
@@ -479,19 +474,6 @@ img {
 @media (min-width: 992px) {
     .showcase-wrapper .showcase-content h2 {
         font-size: 1.8rem;
-    }
-
-    .showcase-wrapper {
-        padding-bottom: 0;
-    }
-
-    .showcase-wrapper.showcase-left {
-        padding-bottom: 0;
-    }
-
-    .showcase-wrapper.showcase-right {
-        padding-top: 0;
-        padding-bottom: 90px;
     }
 
     .showcase-wrapper.showcase-left .showcase-phone {
@@ -833,4 +815,18 @@ img {
 }
 nav.scrollUp {
     transform: translateY(-80px);
+}
+.how-it-works{
+    background: #f9f9f9;
+}
+.how-it-works .punch-line {
+    padding: 50px 0 0;
+}
+.how-it-works .showcase-wrapper{
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+.how-it-works .showcase-wrapper h4{
+    font-weight: 700;
+    margin-bottom: 20px
 }
