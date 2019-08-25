@@ -458,8 +458,7 @@ img {
     padding: 70px 0;
 }
 .showcase-img-small {
-    display: flex;
-    display: -webkit-flex;
+    text-align: center;
 }
 .showcase-img-small img {
     width: 80%;
