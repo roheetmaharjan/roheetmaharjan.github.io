@@ -1,0 +1,179 @@
+.section-heading h2{
+	color: #fff;
+}
+
+.carousel.bg-dark {
+	background: #0C0C0C !important;
+}
+
+span.red{
+	color: #B20000 !important;
+}
+
+.bg-red{
+	background: #B20000 !important;
+}
+
+.carousel.bg-dark img.grayscale {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	opacity: 0.6;
+}
+
+.newsletter-bg::after {
+	background: rgba(7, 7, 7, 0.94);
+}
+
+.newsletter-input .newsletter-button button {
+	background: #B20000;
+}
+
+/* testimonial begins */
+
+.testimonial-fitness {
+	background: #0C0C0C;
+}
+
+.testimonial-fitness .testimonial-holder {
+	background: #090909;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 9px;
+	position: relative;
+}
+
+.testimonial-fitness .testimonial-holder:after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 27%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 24px 26px 0 26px;
+	border-color: #090909 transparent transparent transparent;
+}
+
+.testimonial-fitness .testimonial-wrapper {
+	width: 70%;
+}
+
+.testimonial-fitness .testimonial-holder blockquote {
+	text-align: center;
+}
+
+.testimonial-fitness .testimonial-holder blockquote:before,
+.testimonial-fitness .testimonial-holder blockquote:after {
+	color: #0C0C0C;
+}
+
+.testimonial-fitness .testimonial-holder blockquote:before {
+	top: -40px;
+}
+
+.testimonial-fitness .testimonial-holder blockquote:after {
+	bottom: -40px;
+}
+
+.testimonial-fitness .testimonial-holder .section-para::after {
+	content: '';
+}
+
+.testimonial-fitness .testimonial-holder blockquote {
+	color: #545454;
+	font-weight: normal;
+}
+
+.testimonial-fitness .section-heading h2 {
+	color: #FFF;
+}
+
+.testimonial-fitness .section-para p {
+	color: #545454;
+	margin-bottom: 0;
+}
+
+.testimonial-fitness p.testimonial-name {
+	color: #FFF;
+	text-transform: initial;
+	font-weight: 500;
+}
+
+.testimonial-fitness p.testimonial-name span {
+	color: #404040;
+	font-size: 16px;
+}
+
+.testimonial-fitness p.testimonial-name span:before {
+	content: '';
+	height: 26px;
+	width: 1px;
+	background: #060606;
+	display: inline-block;
+	transform: skewX(-15deg);
+	vertical-align: middle;
+	margin: 0 15px;
+}
+
+.testimonial-fitness .owl-controls .owl-dots {
+	display: none !important;
+}
+
+.testimonial-fitness .testimonial-fitness1 img {
+	width: 57px;
+	height: 57px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.testimonial-fitness1 .owl-nav .owl-prev,
+.testimonial-fitness1 .owl-nav .owl-next {
+	color: #0C0C0C;
+	font-size: 30px;
+	position: absolute;
+	top: 40%;
+	transform: translate(0, -40%);
+	transition: .3s all ease-in-out;
+	-webkit-transition: .3s all ease-in-out;
+	-moz-transition: .3s all ease-in-out;
+	opacity: 0;
+}
+
+.testimonial-fitness1 .owl-nav i {
+	height: 92px;
+	width: 92px;
+	line-height: 92px;
+	text-align: center;
+	border-radius: 50%;
+	background: #060606;
+	transition: .3s all ease-in-out;
+	-webkit-transition: .3s all ease-in-out;
+	-moz-transition: .3s all ease-in-out;
+}
+
+.testimonial-fitness1 .owl-nav i:hover {
+	background: #B20000;
+	color: #FFF;
+}
+
+.testimonial-fitness1 .owl-nav .owl-prev {
+	left: -3%;
+}
+
+.testimonial-fitness1 .owl-nav .owl-next {
+	right: -3%;
+}
+
+.testimonial-fitness:hover .owl-nav .owl-prev {
+	left: 0;
+	opacity: 1;
+}
+
+.testimonial-fitness:hover .owl-nav .owl-next {
+	right: 0;
+	opacity: 1;
+}
+
+/* testimonial ends */

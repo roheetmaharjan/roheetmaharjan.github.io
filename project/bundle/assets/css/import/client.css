@@ -1,0 +1,57 @@
+.clients-table{
+	overflow: hidden;
+}
+.clients-table table {
+    border-collapse: collapse;
+    margin: 60px auto 20px;
+    width: 80%;
+}
+
+.clients-table table tr {
+    border-bottom: 1px solid #C3C3C3;
+}
+
+.clients-table table tr td {
+    border: 0;
+    border-right: 1px solid #C3C3C3;
+    overflow: hidden;
+}
+
+.clients-table table tr td:last-child {
+    border-right: 0;
+}
+
+.clients-table table tr td img {
+    margin: 0 auto;
+}
+
+.clients-table table tr:last-child {
+    border-bottom: 0;
+}
+
+.client .row{
+	overflow:hidden;
+}
+
+@media (max-width: 992px) {
+	.clients-table table{
+		width:90%;
+	}
+}
+
+@media (max-width: 768px) {
+	.clients-table table{
+		width:98%;
+	}
+}
+
+@media (max-width: 600px) {
+	.clients-table table tr td {
+		width: 100%;
+		display: block;
+		border: none;
+	}
+	.clients-table table tr{
+		border: none;
+	}
+}

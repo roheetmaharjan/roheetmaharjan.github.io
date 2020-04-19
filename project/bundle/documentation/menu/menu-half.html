@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Animated Circle Menu Demo</title>
+  <style>
+    html,
+    body { height: 100%; }
+
+    body {
+      margin: 0;
+      background: linear-gradient(#eeeeee, #cccccc);
+      overflow: hidden;
+    }
+
+    .selector {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 130px;
+      height: 130px;
+      margin-top: -70px;
+      margin-left: -70px;
+      background: #FE4365;
+      border-radius: 50%;
+    }
+
+    .selector button {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      border: 1px solid #fff;
+      padding: 10px;
+      background: #FE4365;
+      border-radius: 50%;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all .1s;
+      transform: translate(-50%,-50%);
+      top:50%;
+      left: 50%;
+      line-height: 140px;
+    }
+
+    .selector ul {
+      position: absolute;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      top: -20px;
+      right: -20px;
+      bottom: -20px;
+      left: -20px;
+      transform: rotate(115deg);
+    }
+
+    .selector li {
+      position: absolute;
+      width: 0;
+      height: 100%;
+      margin: 0 50%;
+      -webkit-transform: rotate(-360deg);
+      transition: all 0.8s ease-in-out;
+    }
+
+    .selector li a {
+      position: absolute;
+      left: 50%;
+      bottom: 100%;
+      width: 0;
+      height: 0;
+      line-height: 1px;
+      margin-left: 0;
+      background: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 1px;
+      overflow: hidden;
+      cursor: pointer;
+      color: #FE4365;
+      box-shadow: none;
+      transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+    }
+
+    .selector li a:hover { background: #449d44; }
+
+    .selector.open li a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin-left: -40px;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="plugins/font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class='selector'>
+      <ul>
+        <li>
+          <a href="/home"><i class="fa fa-home"></i></a>
+        </li>
+        <li>
+          <a href="/about"><i class="fa fa-dribbble"></i></a>
+        </li>
+        <li>
+          <a href="/contact"><i class="fa fa-map-marker"></i></a>
+        </li>
+        <li>
+          <a href="/message"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="/user"><i class="fa fa-user"></i></a>
+        </li>
+        <li>
+          <a href="/help"><i class="fa fa-support"></i></a>
+        </li>
+      </ul>
+      <button>Menu</button>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>
+    var nbOptions = 6;
+    var angleStart = -360;
+
+// jquery rotate animation
+function rotate(li,d) {
+  $({d:angleStart}).animate({d:d}, {
+    step: function(now) {
+      $(li)
+      .css({ transform: 'rotate('+now+'deg)' })
+      .find('a')
+      .css({ transform: 'rotate('+(-now)+'deg)' });
+    }, duration: 0
+  });
+}
+
+// show / hide the options
+function toggleOptions(s) {
+  $(s).toggleClass('open');
+  var li = $(s).find('li');
+  var deg = $(s).hasClass('half') ? 90/(li.length-1) : 180/li.length;
+  for(var i=0; i<li.length; i++) {
+    var d = $(s).hasClass('half') ? (i*deg)-90 : i*deg;
+    $(s).hasClass('open') ? rotate(li[i],d) : rotate(li[i],angleStart);
+  }
+}
+
+$('.selector button').click(function(e) {
+  toggleOptions($(this).parent());
+});
+</script>
+
+</body>
+</html>

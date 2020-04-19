@@ -1,0 +1,43 @@
+.grid1 .grid-item {
+	float: left;
+	width: 330px;
+	height: 354px;
+	border: 1px solid #FFF;
+}
+
+.grid1 .grid-item--width2 { 
+	width: 510px;
+}
+.grid1 .grid-item .image-holder{
+	position: relative;
+}
+
+.grid1 .grid-item .image-holder:after{
+	position: absolute;
+	content:'';
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(-180deg, rgba(0,0,0,0) 37%, rgba(0,0,0,0.37) 60%, rgba(0,0,0,0.49) 68%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(37%, rgba(0,0,0,0)), color-stop(60%, rgba(0,0,0,0.37)), color-stop(68%, rgba(0,0,0,0.49)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(-180deg, rgba(0,0,0,0) 37%, rgba(0,0,0,0.37) 60%, rgba(0,0,0,0.49) 68%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(-180deg, rgba(0,0,0,0) 37%, rgba(0,0,0,0.37) 60%, rgba(0,0,0,0.49) 68%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(-180deg, rgba(0,0,0,0) 37%, rgba(0,0,0,0.37) 60%, rgba(0,0,0,0.49) 68%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(-180deg, rgba(0,0,0,0) 37%, rgba(0,0,0,0.37) 60%, rgba(0,0,0,0.49) 68%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+}
+
+.grid1 .grid-item .desc-holder {
+	position: absolute;
+	bottom: 0;
+	padding:0 20px;
+	z-index: 9;
+}
+
+.grid1 .grid-item .desc-holder a {
+	color: #fff;
+	font-size: 24px;
+}
+
