@@ -1,0 +1,21 @@
+.section-heading h2{
+	color: #000;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+.news-heading{
+	border: 0;
+}
+
+.cta-classified .newsletter-input .newsletter-button button {
+    background: #D60B1B;
+}
+
+.news-heading h3 a:hover {
+    color: #D60919;
+}
+
+.introduction-slider .news-heading h3 a:hover {
+    text-shadow: 1px 1px 1px #000;
+    color: #FFF;
+}

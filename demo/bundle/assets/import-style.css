@@ -1,0 +1,16 @@
+/*this section includes all the css needed in this template*/
+
+/*plugin css*/
+@import 'plugins/menu/mega_menu.css';
+@import 'plugins/animate/animate.css';
+@import 'plugins/fancybox/jquery.fancybox.css';
+@import 'plugins/font-awesome/css/font-awesome.min.css';
+@import 'plugins/font-awesome/css/font-awesome-animation.min.css';
+@import 'plugins/owl-carousel/owl.carousel.css';
+@import 'plugins/scroll-bar/scroll-custom.min.css';
+@import 'plugins/swipper/swiper.css';
+@import 'plugins/noUiSlider.8.5.1/nouislider.css';
+@import 'plugins/noUiSlider.8.5.1/nouislider.pips.css';
+@import 'plugins/noUiSlider.8.5.1/nouislider.tooltips.css';
+
+

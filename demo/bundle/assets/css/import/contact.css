@@ -1,0 +1,68 @@
+.contact-holder{
+	margin:20px 0;
+}
+.contact-holder h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #555;
+}
+
+.contact-holder i {
+    font-size: 50px;
+    color: #008CBB;
+    margin-bottom: 20px;
+}
+
+.contact-holder a {
+    color: #555;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase; 
+}
+
+.contact-holder a:hover {
+    color: #00A3D8;
+}
+
+@media (max-width: 768px){
+	.contact-holder{
+		margin-bottom: 40px;
+	}
+}
+
+/*consulting contact*/
+.contact-consulting i{
+    font-size: 72px;
+}
+
+.contact-consulting button i{
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.contact-consulting .btn.more{
+    border: 1px solid #535353;
+    color: #535353;
+    line-height: 45px;
+    padding: 0 25px;
+}
+
+.contact-consulting .btn.more:hover{
+    border: 1px solid #535353;
+    background: #535353;
+    color: #fff;
+}
+
+.contact-consulting .btn.more.alter{
+    background: #00B259;
+    border: 1px solid #00B259;
+    color: #fff;
+}
+
+.contact-consulting .btn.more.alter:hover{
+    background: transparent;
+    border: 1px solid #00B259;
+    color: #00B259;
+}
+/*consulting contact end*/
