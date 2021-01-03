@@ -1,7 +1,3 @@
-body {
-  font-family: sans-serif;
-}
-
 .header-bg {
     width: 100%;
     min-height: 350px;
@@ -47,20 +43,12 @@ body {
 
 .element-item {
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .element-item a {
   line-height: 0;
   display: block;
-}
-
-.element-item img {
-  transition: 0.3s all ease;
-}
-
-.element-item:hover img {
-  transform: scale(1.1);
 }
 
 /*-------Sepron------*/
@@ -123,3 +111,97 @@ body {
     opacity: 0.15;
  }
     }
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto 25px auto;
+}
+.profile-image img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.row{
+  display: flex;
+  display: -webkit-flex;
+}
+.col-sm-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    flex-wrap: nowrap;
+}
+.col-sm-8 {
+    flex: 0 0 70%;
+    max-width: 70%;
+    flex-wrap: nowrap;
+}
+.left-head {
+    height: 100vh;
+    overflow: hidden;
+}
+.content-area {
+    overflow: hidden;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f5feff;
+    padding: 0 10px;
+}
+.content-area .container {
+    max-width: 850px;
+}
+.my-profile {
+    text-align: center;
+    padding: 50px;
+}
+.my-profile .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.my-profile .my-tag{
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+}
+.my-info{
+  font-size: 14px;
+  margin: 10px 0;
+}
+.social-media {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.social-media li a{
+  color: #999;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+@media(max-width: 768px){
+  .left-head {
+      height: auto;
+      overflow: hidden;
+  }
+    .content-area {
+      height: auto;
+  }
+  .row {
+      flex-direction: column;
+  }
+  .col-sm-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .col-sm-8 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}

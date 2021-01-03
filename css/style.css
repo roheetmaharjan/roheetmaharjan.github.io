@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
 }
 
@@ -45,7 +45,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /*----------Container--------------*/
@@ -254,13 +254,13 @@ a.banner-button:hover {
 }
 
 section {
-    padding: 50px 0;
+    padding: 30px 0;
     z-index: 111;
 }
 
 .section-title {
     display: table;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .section-title .box {
@@ -290,6 +290,7 @@ section {
 .section-title .title h3 {
     margin-bottom: 10px;
     color: #333;
+    font-size: 16px;
 }
 
 .section-title .title p {
@@ -517,10 +518,6 @@ section {
     font-size: 16px;
 }
 
-.portfolio {
-    background-color: #f7f7f7;
-}
-
 .portfolio .button-group {
     width: 100%;
     font-size: 0;
@@ -529,10 +526,10 @@ section {
 .portfolio .button {
     background: transparent;
     border: none;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 16px;
+    text-transform: capitalize;
     display: inline-block;
-    width: 20%;
+    width: calc(25% - 4px);
     text-align: center;
     color: #333;
     padding: 10px 0;
@@ -545,7 +542,8 @@ section {
 }
 
 .portfolio .is-checked {
-    border-bottom: 2px solid #d87307;
+    border-bottom: 2px solid #333333;
+    font-weight: 700;
 }
 
 .portfolio .grid {
@@ -557,15 +555,10 @@ section {
 
 .portfolio .grid div {
     display: inline-block;
-    width: 31.66%;
-    margin-right: 1%;
-    box-shadow: 1px 1px 5px #ddd;
-    max-height: 230px;
-    overflow: hidden;
-}
-
-.portfolio .grid div:nth-child(3n+3) {
-    margin-right: 0;
+    width: calc(33.33% - 15px);
+    margin-right: 15px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 5px rgb(151 152 152 / 41%);
 }
 
 @media screen and (max-width: 640px) {
