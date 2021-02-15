@@ -257,10 +257,9 @@ section {
     padding: 30px 0;
     z-index: 111;
 }
-
 .section-title {
-    display: table;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .section-title .box {
@@ -277,20 +276,22 @@ section {
     top: 5px;
     position: absolute;
     vertical-align: top;
-    background-color: #333;
+    background-color: #6d0ae8;
 }
 
 .section-title .title {
     display: table-cell;
     vertical-align: top;
     padding: 0 0 0 20px;
-    color: #333
+    color: #6d0ae8
 }
 
 .section-title .title h3 {
     margin-bottom: 10px;
-    color: #333;
-    font-size: 16px;
+    color: #6d0ae8;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .section-title .title p {
@@ -522,43 +523,61 @@ section {
     width: 100%;
     font-size: 0;
 }
-
-.portfolio .button {
-    background: transparent;
-    border: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: calc(25% - 4px);
-    text-align: center;
-    color: #333;
-    padding: 10px 0;
-    cursor: pointer;
-    border-bottom: 2px solid #ddd;
+.portfolio .button-group{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
-
+.portfolio .button {
+    border: 1px solid #ccc;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    background-color: transparent;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #6d0ae8;
+    color: #6d0ae8;
+    margin: 0 5px 0 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.portfolio .button:last-child{
+    margin-right: 10px;
+}
 .portfolio .button:focus {
     outline: none;
 }
-
 .portfolio .is-checked {
-    border-bottom: 2px solid #333333;
-    font-weight: 700;
+    background-color: #6d0ae8;
+    color: #fff;
 }
 
 .portfolio .grid {
     overflow: hidden;
     width: 100%;
-    padding: 20px 0 0 0;
     min-height: 700px;
+    margin-top: 40px;
+    font-size: 0;
 }
-
 .portfolio .grid div {
     display: inline-block;
-    width: calc(33.33% - 15px);
-    margin-right: 15px;
+    font-size: 14px;
+    width: 33.33%;
+    margin-bottom: 0px;
+}
+.portfolio .grid div a {
+    /* display: inline-block; */
+    font-size: 14px;
     border: 1px solid #eee;
-    box-shadow: 1px 1px 5px rgb(151 152 152 / 41%);
+    margin: 0 10px 20px 10px;
 }
 
 @media screen and (max-width: 640px) {

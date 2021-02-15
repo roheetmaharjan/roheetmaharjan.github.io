@@ -145,6 +145,9 @@
 .left-head {
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content-area {
     overflow: hidden;
@@ -154,7 +157,7 @@
     padding: 0 10px;
 }
 .content-area .container {
-    max-width: 850px;
+    max-width: 880px;
 }
 .my-profile {
     text-align: center;
