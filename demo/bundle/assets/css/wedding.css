@@ -1,0 +1,14 @@
+.section-heading h2{
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.section-para{
+	width:50%;
+}
+
+@media (max-width: 991px) {
+	.section-para{
+		width:80%;
+	}
+}

@@ -1,0 +1,1380 @@
+/* cta*/
+.orange-bg{
+    background: url('../../images/cta_bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.orange-bg:after {
+    content: '';
+    background: rgba(255, 63, 0, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left:0;
+}
+
+.black-bg{
+    background: url('../../images/portfolio-bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.black-bg:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left:0;
+}
+.cta .container{
+    z-index:9;
+}
+.cta-row {
+    padding: 30px 0;
+    z-index:10;
+}
+
+.cta-row p{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom:30px;
+}
+
+.cta-row h3{
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.cta-row h4{
+    font-size: 30px;
+    color: #fff;
+}
+
+.cta-row a.ct-button {
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FF3F00;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+}
+
+.cta-row a.ct-button span {
+    margin-left: 15px;
+}
+
+.cta-row a.ct-button:hover {
+    background: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.newsletter-bg.bg1{
+    background: url('../../images/newsletter_bg.jpg') no-repeat;
+    background-attachment: fixed;
+}
+
+
+.newsletter-bg{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.newsletter-bg.bg2{
+    background: url('../../images/nedical-bg.jpg');
+    background-attachment: fixed;
+}
+
+.newsletter-bg:after{
+    content: '';
+    background: rgba(18, 17, 17, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left:0;
+}
+
+.newsletter-bg .cta-row p{
+    color: #BABABA;
+    font-size: 22px;
+}
+
+.newsletter-input {
+    display: inline-block;
+    margin: 10px auto 0;
+    position: relative;
+    width: 57%;
+}
+
+.newsletter-input input {
+    width: 100%;
+    height: 60px;
+    color: #868686;
+    padding-right: 180px;
+    box-shadow: none;
+}
+
+.newsletter-input .newsletter-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*
+.newsletter-input {
+    display: inline-block;
+    margin: 10px auto 0;
+    position: relative;
+    width: 100%;
+}
+
+.newsletter-input input {
+    width: 50%;
+    height: 60px;
+    color: #868686;
+    padding-right: 15px;
+    margin-left: -150px;
+}
+
+.newsletter-input .newsletter-button{
+    position: absolute;
+    white-space: nowrap;
+}
+*/
+.newsletter-input .newsletter-button button {
+    background: #FE4918;
+    border: 0;
+    border-radius: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+
+.newsletter-input .newsletter-button button:hover {
+    background: #e33b3b;
+}
+
+.cta-row .btn.more {
+    background: #41C3D0;
+    color: #fff;
+    border: 2px solid #41C3D0;
+}
+
+.cta-row .btn.more:hover{
+    background: #3781B2;
+    border-color: #3781B2;
+}
+
+.cta.bg2 .cta-row{
+    padding: 0;
+}
+
+.black-bg .cta-row p{
+    color: #545454;
+    font-size: 18px;
+}
+
+.black-bg .cta-row a.ct-button{
+    color: #fff;
+    background: #00A3D9;
+    border-color: #00A3D9;
+    border-radius: 0;
+}
+
+.black-bg .cta-row a.ct-button:hover{
+    background: #007095;
+    border-color: #007095;
+}
+
+/*cta four*/
+.bg-blue .cta-row p {
+    font-size: 18px;
+}
+
+.bg-blue  .cta-row .btn.more {
+    background: #fff;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 31px;
+    color: #00A3D8;
+    padding: 12px 45px;
+}
+
+.bg-blue  .cta-row .btn.more:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.bg-blue .cta-row h3 {
+    font-size: 40px;
+}
+
+@media(max-width:992px){
+    .newsletter-input{
+        width:70%;
+    }
+}
+
+@media(max-width:767px){
+    .newsletter-input{
+        width:85%;
+    }
+}
+
+@media(max-width:600px){
+    .newsletter-input{
+        width: 95%;
+    }
+
+    .newsletter-input input{
+        height: 55px;
+    }
+
+    .newsletter-input .newsletter-button button{
+        height: 55px;
+    }
+}
+@media(max-width: 480px){
+    .newsletter-input .newsletter-button button{
+        padding: 0 15px;
+    }
+}
+
+/*cta 5*/
+.newsletter-input-sm {
+    display: inline-block;
+    margin: 10px auto 0;
+    position: relative;
+    width: 80%;
+}
+
+.newsletter-input-sm input {
+    width: 100%;
+    height: 50px;
+    color: #868686;
+    box-shadow: none;
+    padding-right: 130px;
+}
+
+.newsletter-input-sm .newsletter-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.newsletter-input-sm .newsletter-button button {
+    background: #19A8D6;
+    border: 0;
+    border-radius: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.newsletter-input-sm .newsletter-button button:hover {
+    background: #117393;
+}
+
+.cta-row label{
+    font-size: 24px;
+    color: #fff;
+}
+.cta-row .logo-holder{
+    margin-top: 20px;
+}
+.cta-row .logo-holder p{
+    line-height: 35px;
+    color: #4C596A;
+}
+
+.cta-row .logo-holder p span{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.cta-row ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cta-row ul li a {
+    color: #4D596A;
+    font-size: 36px;
+}
+
+.cta-row ul li a:hover{
+    color: #fff;
+}
+
+/*construction cta*/
+.construction-cta.bg1{
+    background: url('../../images/construction.jpg');
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.construction-cta.bg1:after{
+    content: '';
+    background: rgba(18, 17, 17, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left:0;
+}
+.construction-cta .btn.more{
+    background: #FFBF00;
+    border-color: #FFBF00;
+    box-shadow: 0 0 5px #5F4700;
+}
+
+.construction-cta .btn.more:hover{
+    background: none;
+    border-color: #FFBF00;
+    color: #FFBF00;
+}
+
+.construction-cta .section-para p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.construction-cta.bg2{
+    background: url('../../images/construction-bg.jpg');
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.construction-cta.bg2:after{
+    content: '';
+    background: rgba(0,163,217,0.88);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left:0;
+}
+
+.construction-cta .newsletter-input .newsletter-button button {
+    background: #FBBC0D;
+}
+
+.construction-cta .newsletter-input .newsletter-button button:hover {
+    background: #B88603;
+}
+
+.construction-cta.bg2 .newsletter-input input {
+    padding-right: 220px;
+}
+
+/*legal cta*/
+
+/*Legal 1*/
+.cta-legal1{
+    background: url('../../images/legalCta1.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-legal1:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left:0;
+}
+
+.cta-legal1 .cta-row h2 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.cta-legal1 .cta-row a.ct-button {
+    background: transparent;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.cta-legal1 .cta-row a.ct-button:hover{
+    background: #FF8000;
+    border-color: #FF8000;
+}
+
+/*legal 2*/
+.cta-legal2{
+    background: url('../../images/legalCta2.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-legal2:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left:0;
+}
+
+.cta-legal2 .cta-row a.ct-button {
+    background: #FF8000;
+    border-color: #FF8000;
+    border-radius: 0;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 45px;
+    text-transform: initial;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.cta-legal2 .cta-row a.ct-button:hover{
+    background: transparent;
+    border-color: #FF8000;
+    color: #FF8000;;
+}
+
+.cta-legal2 .cta-row p{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.cta-legal2 .cta-row h3{
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+/*travel*/
+.travel.bg1{
+    background: url('../../images/banner-travel.png') #3C4551;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+}
+
+.travel.bg1 .cta-row ul li a{
+    font-size: 30px;
+}
+
+/*ecommerce*/
+.cta-ecommerce{
+    position: relative;
+    z-index: 1;
+}
+
+.cta-ecommerce.bg1{
+    background: url('../../images/ecommerce-cta-bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.cta-ecommerce:after {
+    content: '';
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left:0;
+}
+
+.cta-ecommerce .cta-row h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom:10px;
+}
+
+.cta-ecommerce .cta-row a.ct-button {
+    background: transparent;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.cta-ecommerce .cta-row a.ct-button:hover{
+    background: #D8121F;
+    border-color: #D8121F;
+}
+
+/*ecommerce advertise*/
+.ecommerce-advertise .add-desc .btn.more{
+    margin-top:10px;
+    margin-bottom:0;
+}
+.ecommerce-advertise .bg-white .add-desc .btn.more{
+    background: #D9121F;
+    border: 1px solid #D9121F;
+    color: #fff;
+}
+
+.ecommerce-advertise .bg-blue .add-desc .btn.more{
+    border: 1px solid #fff;
+}
+
+.ecommerce-advertise .bg-blue .add-desc .btn.more:hover{
+    background: transparent;
+}
+
+.ecommerce-advertise .bg-white .add-desc .btn.more:hover{
+    color:#D9121F;
+    background: transparent;
+}
+.ecommerce-advertise .add-desc{
+    position: relative;
+    transform: translate(0,35%);
+}
+.ecommerce-advertise .add-desc .section-heading h2{
+    line-height: 1.2;
+    font-weight:600;
+}
+.ecommerce-advertise .bg-blue .add-desc .section-heading h2{
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .ecommerce-advertise .add-desc {
+        transform: translate(0,0);
+    }
+}
+
+@media (max-width: 400px) {
+    .ecommerce-advertise .add-desc .section-heading h2{
+        font-size: 30px;
+    }
+    .ecommerce-advertise .col-xs-5,
+    .ecommerce-advertise .col-xs-7 {
+        width: 100%;
+        display:block;
+        text-align: center;
+
+    }
+}
+/*ecommerce advertise end*/
+
+/* cta-plumber begins */
+.cta-plumber {
+    position: relative;
+    background: url('../../images/carousel/plumbing-bg1.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cta-plumber:after {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.87);
+    z-index:1;
+}
+
+.cta-plumber .cta-row {
+    padding: 40px 0;
+}
+
+.cta-plumber .cta-row h3 {
+    font-size: 32px;
+}
+
+.cta-plumber .bg-dark-orange {
+    border: 1px solid #F0542D;
+    border-radius: 0;
+    color: #FFF;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 24px 74px;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+}
+.cta-plumber .bg-dark-orange:hover {
+    background: transparent;
+    color: #F0542D;
+}
+
+@media(max-width: 991px) {
+ .cta-plumber h3{
+    text-align: center;
+}
+}
+/* cta-plumber ends */
+
+/*cta-restaurant*/
+.cta-restaurant {
+    position: relative;
+    background: url('../../images/restaurant-cta.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cta-restaurant:after {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(20,11,3,0.8);;
+    z-index:1;
+}
+
+.cta-restaurant .container{
+    z-index:10;
+}
+
+.cta-restaurant .date{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.cta-restaurant .cta-row p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.cta-restaurant .cta-row h3{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.cta-restaurant .cta-row .btn.more{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.cta-restaurant .cta-row .btn.more:hover{
+    background: #fff;
+    color:#000;
+}
+
+.cta-restaurant .sale{
+    height: 217px;
+    width: 217px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cta-restaurant .sale:after{
+    content: '';
+    position: absolute;
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    border: 1px solid #FF8000;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:1;
+}
+
+.cta-restaurant .sale p{
+    font-size: 64px;
+    color: #FF8E1F;
+    line-height: 1.0;
+    margin-bottom: 0;
+    position: relative;
+    transform: translate(0%,40%);
+}
+
+@media( max-width: 991px) {
+    .cta-restaurant{
+        text-align: center !important;
+    }
+}
+
+/*cta-restaurant ens*/
+
+/*social cta*/
+.social-cta {
+    position: relative;
+    background: rgba(0, 0, 0, 0.9) url('../../images/social-cta.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.social-cta .container{
+    z-index:10;
+}
+
+.social-cta .section-para p{
+    font-size: 18px;
+}
+
+.cta-progress {
+    position: relative;
+    width: 80%;
+    border-radius: 8px;
+    overflow-x: hidden;
+    padding: 110px 0 30px 0;
+    margin: 0 auto;
+}
+
+.cta-progress:before {
+    width: 100%;
+    height: 18px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #fff;
+}
+
+.cta-progress .progress-bar {
+    background: #FFF;
+    width: 100%;
+    height: 18px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+}
+
+.cta-progress .progress-bar .bar {
+    background: #62c462;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 15px 15px;
+    height: 100%;
+    position: relative;
+}
+
+.cta-progress .progress-bar.active .bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -moz-animation: progress-bar-stripes 2s linear infinite;
+    -ms-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+}
+to {
+    background-position: 0 0;
+}
+}
+
+@-moz-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+}
+to {
+    background-position: 0 0;
+}
+}
+
+@-ms-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+}
+to {
+    background-position: 0 0;
+}
+}
+
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 0 0;
+}
+to {
+    background-position: 40px 0;
+}
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+}
+to {
+    background-position: 0 0;
+}
+}
+
+.cta-progress .progress-bar .progress-heading {
+    color: #FFF;
+    position: absolute;
+    top: -60px;
+}
+
+.cta-progress .bar .progress-heading {
+    right: -150px;
+}
+
+.cta-progress .progress-bar .progress-heading p {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cta-progress .progress-bar .progress-heading p:first-child:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    bottom: -8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.cta-progress .progress-bar .progress-heading p.bg-orange:after {
+    border-color: #FF8000 transparent transparent transparent;
+}
+
+.cta-progress .progress-bar .progress-heading p.bg-dark-orange:after {
+    border-color: #F0542D transparent transparent transparent;
+}
+
+.cta-progress .progress-bar .progress-heading p:last-child {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cta-progress .transparent-bar .progress-heading {
+    right: 0;
+}
+@media (max-width: 767px ){
+    .cta-progress{
+        width: 100%;
+    }
+}
+/*social cta end */
+
+/*social newsletter */
+.social-newsletter{
+    position: relative;
+    background: rgba(255, 255, 255, 0.9) url('../../images/social-newsletter.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.social-newsletter:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: RGBA(17, 17, 17, 0.88);
+}
+
+.social-newsletter .container{
+    z-index:10;
+}
+
+.social-newsletter .section-para p{
+    font-size:18px;
+    color: #B9B9B9;
+}
+
+.social-newsletter form{
+    margin-bottom: 0;
+    margin-top:20px;
+}
+
+.social-newsletter .social-input input{
+    width: 30%;
+    height: 50px;
+    padding: 0px 10px 0px 20px;
+    margin: 0 5px;
+    box-shadow: none;
+}
+
+.social-newsletter .social-input .social-button .btn{
+    width: 150px;
+    background: #29AE89;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border:0;
+    height: 50px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.social-newsletter .social-input .social-button .btn:hover{
+    background: #20886B;
+}
+@media(max-width: 620px) {
+    .social-newsletter .social-input input{
+        width: 100%;
+        margin: 5px;
+    }
+}
+/*social newsletter end */
+
+/*blog subscription form*/
+.subscription-form .icon-holder{
+    width: 88px;
+    height: 88px;
+    line-height: 88px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 64, 0);
+    font-size: 50px;
+    color: rgb(255, 64, 0);
+    display: inline-block;
+    margin-right:10px;
+}
+.subscription-form .subscription-desc{
+    display: inline-block;
+    width: 80%; 
+}
+
+.subscription-form h3{
+    font-size:30px;
+    margin-bottom: 5px;
+}
+
+.subscription-form p{
+    color: #999;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.subscription-form .newsletter-input{
+    width: 100%;
+}
+
+.subscription-form .newsletter-input input{
+    height: 50px;
+    background: #eee;
+    padding-right: 200px;
+    box-shadow: none;
+}
+
+.subscription-form .newsletter-input .newsletter-button button{
+    height: 50px;
+}
+
+@media(max-width: 1199px) {
+    .subscription-form .subscription-desc{
+        width: 76%;
+        vertical-align: top;
+    }
+    .subscription-form h3 {
+        font-size: 24px;
+    }
+    .subscription-form p{
+        font-size: 15px;
+    }
+}
+
+/*blog subscription form end*/
+
+/* cta-consulting begins */
+
+.cta-consulting {
+    background: rgba(0, 0, 0, 0.9) url('../../images/consulting-cta.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.cta-consulting .cta-row {
+    padding-top: 170px;
+}
+
+.cta-consulting .cta-row h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.cta-consulting .cta-row p {
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto 35px;
+}
+
+.cta-consulting .cta-row a.ct-button {
+    background: #00B259;
+    border-radius: 26px;
+    text-transform: capitalize;
+    border: 1px solid #00B259;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 34px;
+}
+
+.cta-consulting .cta-row a.ct-button:hover {
+    background: transparent;
+    color: #00B259;
+}
+@media(max-width: 991px) {
+    .cta-consulting .cta-row {
+        padding-top: 20px;
+    }
+}
+
+/* cta-consulting ends */
+
+/*Cta Education*/
+.cta-education{
+    position: relative;
+}
+
+.cta-education.bg1{
+    background:#4285F4 url('../../images/ecucation-cta.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cta-education.bg2{
+    background: url('../../images/about/education-about1.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cta-education.bg2:after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+}
+
+.cta-education .cta-row{
+    position: relative;
+    z-index: 9;
+}
+
+.cta-education .cta-row p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.cta-education .cta-row h3 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.cta-education .cta-row h3 :after{
+    background: #060605;
+}
+
+.cta-education .cta-row .btn.more{
+    background: #fff;
+    color: #4285F4;
+    border: 1px solid #fff;
+}
+
+.cta-education .cta-row .btn.more:hover{
+    background: #4285F4;
+    color: #fff;
+    border: 1px solid #669CF7;
+}
+
+.cta-education i{
+    height: 113px;
+    width: 113px;
+    line-height: 113px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #fff;
+}
+
+.cta-education .section-heading h2{
+    color: #fff;
+}
+
+.cta-education .btn.alter{
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding: 15px 35px;
+    font-size:24px;
+    background: transparent;
+    margin: 10px 0 0;
+}
+
+.cta-education .btn.alter:hover{
+    background: #fff;
+    color: #555;
+}
+
+/*Cta Education end*/
+
+/*cta classified:addvertise*/
+.classified-project{
+
+}
+.black-bg .btn.tour{
+    border: 1px solid #00B259;
+    background: #00B259;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 40px;
+}
+
+.black-bg .btn.tour:hover{
+    background: transparent;
+    color: #00B259;
+}
+
+.black-bg .btn.submit{
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 40px;
+}
+
+.black-bg .btn.submit:hover{
+    background: #fff;
+    color: #555;
+}
+/*cta classified : advertise end*/
+
+/*cta classified : newsletter*/
+.cta-classified .cta-row h3 {
+    color: #333;
+}
+
+.cta-classified .cta-row p {
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+.cta-classified .newsletter-input input {
+    padding-right: 220px;
+}
+
+.cta-classified .newsletter-input .newsletter-button button{
+    background: #00A651;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.cta-classified .newsletter-input .newsletter-button button:hover{
+    background: #06713A;
+}
+/*cta classified : newsletter end */
+
+/*cta forum*/
+.cta-forum{
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+}
+
+.cta-forum .cta-row h3,
+.cta-forum .cta-row p{
+    color: #535353;
+}
+
+.cta-forum .cta-row p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.cta-forum .cta-row .btn.more{
+    background: #E91D62;
+    border: 1px solid #E91D62;
+}
+
+.cta-forum .cta-row .btn.more:hover{
+    background: #C11350;
+}
+
+/*cta forum end*/
+
+/*cta fashion*/
+.cta-fashion{
+    background: url(../../images/cta-fashion.jpg) no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.cta-fashion:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.fashion-box{
+    width: 330px;
+    border: 12px solid #fff;
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 5px;
+}
+/*cta fashion end*/
+
+/*Video Cta*/
+.video-cta{
+    background: url(../../images/video-cta.jpg) no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.video-cta:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.video-cta .container{
+    z-index:99;
+}
+
+.video-cta .cta-row h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.video-cta .cta-row a.ct-button {
+    background: #D60B1B;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-color: #D60B1B;
+}
+
+.video-cta .cta-row a.ct-button:hover{
+    background: transparent;
+    border: 1px solid;
+    color: #FFF;
+}
+
+.video-cta .cta-row .section-para p{
+    color: #fff;
+}
+/*Video Cta end*/
+
+/*Fitness Cta*/
+.fitness-cta{
+    background-attachment: fixed;
+    background: url(../../images/fitness/cta-fitness.jpg);
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+}
+
+.fitness-cta:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0, 0.95);
+    z-index: 1;
+}
+.fitness-cta .container{
+    z-index: 9;
+}
+
+.fitness-cta h3,
+.fitness-cta p{
+    color: #fff;
+}
+
+.fitness-cta p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+
+.fitness-cta .btn.more{
+    text-transform: uppercase;
+    padding: 14px 35px;
+    border: none;
+    margin: 10px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.fitness-cta .btn.bg-red:hover{
+    background: rgba(23, 23, 23, 0.5) !important;
+}
+/*Fitness Cta end*/

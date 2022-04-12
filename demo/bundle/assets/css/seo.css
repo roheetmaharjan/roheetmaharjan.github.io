@@ -1,0 +1,26 @@
+span.darkblue{
+	color: #103C6D;
+}
+.section-heading h2 {
+	color: #212121;
+	font-weight: 700;
+}
+
+.section-para{
+	width: 55%;
+}
+
+@media (max-width: 767px) {
+	.section-para {
+		width: 100%;
+	}
+}
+
+.blog-seo .section-para p,
+.carousel .section-para p {
+	margin: 0 auto 30px;
+}
+
+.footer-link-top ul li a:hover{
+	color: #fff;
+}

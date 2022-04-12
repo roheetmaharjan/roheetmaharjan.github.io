@@ -1,0 +1,74 @@
+/*specific css*/
+
+/*content*/
+#content {
+	position: relative;
+	top: 65px;
+}
+
+#footer {
+	top: 65px;
+}
+
+@media (max-width: 991px) {
+	#content {
+		top: 90px;
+	}
+
+	#footer {
+	top: 90px;
+}
+}
+
+/*heading*/
+.section-heading h2 {
+	color: #222;
+	font-weight: 600;
+}
+
+/*menu btn*/
+#menu-2.mega-menu.scroll-to-fixed-fixed > section.menu-list-items .menu-links > li a.menu-btn {
+	background: #29AF8A;
+	color: #fff;
+	border-radius: 30px;
+	padding: 0 25px;
+	line-height: 40px;
+	margin-top: 13px;
+	border: 1px solid #29AF8A;
+}
+
+#menu-2.mega-menu.scroll-to-fixed-fixed > section.menu-list-items .menu-links > li a.menu-btn:hover{
+	background: #fff;
+	color: #29AF8A;
+}
+
+#menu-2.mega-menu.scroll-to-fixed-fixed > section.menu-list-items{
+	padding: 10px 0;
+}
+
+@media (max-width: 1199px) {
+	.mega-menu .menu-links > li > a {
+		padding: 0 11px;
+	}
+	#menu-2.mega-menu.scroll-to-fixed-fixed > section.menu-list-items .menu-links > li a.menu-btn {
+		padding: 0 15px;
+		font-size: 12px;
+	}
+
+	#menu-2.mega-menu .menu-links {
+		background: #FFF;
+	}
+}
+
+@media (max-width: 991px){
+	#menu-2.mega-menu.scroll-to-fixed-fixed > section.menu-list-items .menu-links > li a.menu-btn{
+		margin-top:0;
+		margin-bottom: 10px;
+	}
+}
+
+#menu-2.mega-menu .menu-mobile-collapse-trigger::before, 
+#menu-2.mega-menu .menu-mobile-collapse-trigger::after, 
+#menu-2.mega-menu .menu-mobile-collapse-trigger span{
+	background: #555;
+}

@@ -1,0 +1,26 @@
+.black-bg .section-heading h2,
+.black-bg .section-para p{
+	color: #fff;
+}
+
+.section-heading h2{
+	color: #333 ;
+	text-transform: capitalize;
+	font-weight:500;
+}
+
+.footer-link p.big-phone{
+	color: #00A651;
+}
+
+.footer-social span.footer-cta button {
+    background: #00A651;
+}
+
+.footer-social span.footer-cta button:hover {
+    background: #037A3D;
+}
+
+.cart span {
+	background: #037A3D;
+}
