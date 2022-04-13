@@ -1,19 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a95c91b.css",
-    "main.js": "/static/js/main.38e83abe.js",
-    "static/media/12.png": "/static/media/12.387edc64c36fcfe34948.png",
-    "static/media/11.png": "/static/media/11.8ee20309cfe15a527d6d.png",
-    "static/media/14.png": "/static/media/14.70b20ce0d1137122bf5b.png",
-    "static/media/13.png": "/static/media/13.ca2209f0d2fc012d7a6b.png",
-    "static/media/10.png": "/static/media/10.bc5dd390e2e6cb3c12a9.png",
-    "static/media/profile-2.jpg": "/static/media/profile-2.1210d969a025da0359c0.jpg",
-    "index.html": "/index.html",
-    "main.3a95c91b.css.map": "/static/css/main.3a95c91b.css.map",
-    "main.38e83abe.js.map": "/static/js/main.38e83abe.js.map"
+    "main.css": "/roheetmaharjan.github.io/static/css/main.7dfb4979.css",
+    "main.js": "/roheetmaharjan.github.io/static/js/main.c3cbab0a.js",
+    "static/js/787.fd54aa9e.chunk.js": "/roheetmaharjan.github.io/static/js/787.fd54aa9e.chunk.js",
+    "static/media/visiting-card2.png": "/roheetmaharjan.github.io/static/media/visiting-card2.6995feb860a479423985.png",
+    "static/media/multiple.png": "/roheetmaharjan.github.io/static/media/multiple.f4525da4835fdefc3ecf.png",
+    "static/media/visiting-card1.png": "/roheetmaharjan.github.io/static/media/visiting-card1.b9c57c7862af3ab7b8ad.png",
+    "static/media/12.png": "/roheetmaharjan.github.io/static/media/12.387edc64c36fcfe34948.png",
+    "static/media/11.png": "/roheetmaharjan.github.io/static/media/11.8ee20309cfe15a527d6d.png",
+    "static/media/medical.png": "/roheetmaharjan.github.io/static/media/medical.b1dc20ae1cd50a164ad8.png",
+    "static/media/14.png": "/roheetmaharjan.github.io/static/media/14.70b20ce0d1137122bf5b.png",
+    "static/media/corporate.png": "/roheetmaharjan.github.io/static/media/corporate.67b333eb7a3f98541044.png",
+    "static/media/13.png": "/roheetmaharjan.github.io/static/media/13.ca2209f0d2fc012d7a6b.png",
+    "static/media/10.png": "/roheetmaharjan.github.io/static/media/10.bc5dd390e2e6cb3c12a9.png",
+    "static/media/consult.png": "/roheetmaharjan.github.io/static/media/consult.5b3c7aa74ebad1378c63.png",
+    "static/media/glinde.jpg": "/roheetmaharjan.github.io/static/media/glinde.bdbee05fdcd76e887b42.jpg",
+    "static/media/profile-2.jpg": "/roheetmaharjan.github.io/static/media/profile-2.1210d969a025da0359c0.jpg",
+    "static/media/pathao.jpg": "/roheetmaharjan.github.io/static/media/pathao.c9acba4ef3b7e056f743.jpg",
+    "static/media/marketing.jpg": "/roheetmaharjan.github.io/static/media/marketing.6358ab5cc3e8fc32e1e3.jpg",
+    "static/media/id.png": "/roheetmaharjan.github.io/static/media/id.2549aa5fe1f5c421369d.png",
+    "static/media/sports.png": "/roheetmaharjan.github.io/static/media/sports.b762349ba10da45a9d44.png",
+    "index.html": "/roheetmaharjan.github.io/index.html",
+    "main.7dfb4979.css.map": "/roheetmaharjan.github.io/static/css/main.7dfb4979.css.map",
+    "main.c3cbab0a.js.map": "/roheetmaharjan.github.io/static/js/main.c3cbab0a.js.map",
+    "787.fd54aa9e.chunk.js.map": "/roheetmaharjan.github.io/static/js/787.fd54aa9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a95c91b.css",
-    "static/js/main.38e83abe.js"
+    "static/css/main.7dfb4979.css",
+    "static/js/main.c3cbab0a.js"
   ]
 }
