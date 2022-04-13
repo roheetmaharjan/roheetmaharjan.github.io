@@ -1,23 +1,23 @@
 import './App.css';
 
 //Image
-import ProfileImg from "./images/profile-2.jpg";
-import Img10 from "./images/screen/10.png";
-import Img11 from "./images/screen/11.png";
-import Img12 from "./images/screen/12.png";
-import Img13 from "./images/screen/13.png";
-import Img14 from "./images/screen/14.png";
-import Img15 from "./images/screen/medical.png";
-import Img16 from "./images/screen/multiple.png";
-import Img17 from "./images/screen/corporate.png";
-import Img18 from "./images/screen/pathao.jpg";
-import Img19 from "./images/screen/marketing.jpg";
-import Img20 from "./images/screen/consult.png";
-import Img21 from "./images/website/glinde.jpg";
-import Img22 from "./images/screen/sports.png";
-import Img23 from "./images/website/id.png";
-import Img24 from "./images/website/visiting-card1.png";
-import Img25 from "./images/website/visiting-card2.png";
+import ProfileImg from "../images/profile-2.jpg";
+import Img10 from "../images/screen/10.png";
+import Img11 from "../images/screen/11.png";
+import Img12 from "../images/screen/12.png";
+import Img13 from "../images/screen/13.png";
+import Img14 from "../images/screen/14.png";
+import Img15 from "../images/screen/medical.png";
+import Img16 from "../images/screen/multiple.png";
+import Img17 from "../images/screen/corporate.png";
+import Img18 from "../images/screen/pathao.jpg";
+import Img19 from "../images/screen/marketing.jpg";
+import Img20 from "../images/screen/consult.png";
+import Img21 from "../images/website/glinde.jpg";
+import Img22 from "../images/screen/sports.png";
+import Img23 from "../images/website/id.png";
+import Img24 from "../images/website/visiting-card1.png";
+import Img25 from "../images/website/visiting-card2.png";
 
 function App() {
   return (
